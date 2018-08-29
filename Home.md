@@ -12,7 +12,6 @@ Every route except `Auth` require authorization.
 Use `/Auth/Token` to retieve access token, and append "Authorization: Bearer access_token" HTTP header to access other APIs.
 
 ## DataTypes
-
 | Name | BaseType | Description | Comment |
 |:- |:-:|:- |:- |
 | Boolean |  | either `true` or `false` |  |
