@@ -1,4 +1,5 @@
-# likeWater API
+# Like Waters API
+
 ## Route
 
 * [Auth](auth)

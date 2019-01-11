@@ -1,5 +1,6 @@
 # /Auth
-## `POST` /checkExist
+
+## `POST` /CheckExist
 determine an Email already existed or not
 
 **Request** ( JSON )
@@ -12,20 +13,24 @@ determine an Email already existed or not
 - `->`: Object
     - `isExist`: Boolean
 
-## `POST` /register
+## `POST` /Register
 
 **Request** ( JSON )
 
 - `->`: Object
     - `email`: String
-    - `password`: String
 
-**Response** ( JSON )
+**Response** ( N/A )
+
+## `POST` /Verify
+
+**Request** ( JSON )
 
 - `->`: Object
-    - `token`: String
+    - `email`: String
+    - `code`: String
 
-## `POST` /token
+## `POST` /Token
 
 **Request** ( JSON )
 
@@ -38,18 +43,3 @@ determine an Email already existed or not
 - `->`: Object
     - `token`: String
     - `expiredAt`: Int64
-
-## `POST` /refreshToken
-
-**Request** ( JSON )
-
-- `->`: Object
-    - `token`: String
-
-**Response** ( JSON )
-
-- `->`: Object
-    - `token`: String
-
-## `POST` /forgetPassword
-NOT IMPLEMENTED YET

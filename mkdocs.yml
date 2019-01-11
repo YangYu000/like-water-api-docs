@@ -1,0 +1,13 @@
+site_name: Like Water API
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+nav:
+    - Home: 'index.md'
+    - Route:
+        - Auth: 'auth.md'
+        - User: 'user.md'
+    - ErrorCodes: 'errorcodes.md'
