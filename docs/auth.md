@@ -30,6 +30,11 @@ determine an Email already existed or not
     - `email`: String
     - `code`: String
 
+**Response** ( JSON )
+
+- `->`: Object
+    - `token`: String
+
 ## `POST` /Token
 
 **Request** ( JSON )
@@ -42,4 +47,3 @@ determine an Email already existed or not
 
 - `->`: Object
     - `token`: String
-    - `expiredAt`: Int64
