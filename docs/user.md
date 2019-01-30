@@ -24,10 +24,10 @@
 **Request** ( JSON )
 
 - `->`: Object
-    - `Birthday`: Timestamp
-    - `Weekdays`: String
-    - `Gender`: Int32
-    - `Weight`: Double
-    - `Height`: Double
+    - `Birthday`: Timestamp ( optional )
+    - `Weekdays`: String ( optional )
+    - `Gender`: Int32 ( optional )
+    - `Weight`: Double ( optional )
+    - `Height`: Double ( optional )
 
 **Response** ( N/A )

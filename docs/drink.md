@@ -1,4 +1,5 @@
 # /Drink
+
 ## `GET` /
 
 **Request** ( N/A )
@@ -7,7 +8,7 @@
 
 - `[ ]`: Array
     - `id`: Int64
-    - `iconCode`: Int32
+    - `icon`: Int32
     - `name`: String
     - `concentration`: Int16
 
@@ -19,7 +20,7 @@
 
 - `->`: Object
     - `id`: Int64
-    - `iconCode`: Int32
+    - `icon`: Int32
     - `name`: String
     - `concentration`: Int16
 
@@ -29,7 +30,7 @@
 **Request** ( JSON )
 
 - `->`: Object
-    - `iconCode`: Int32
+    - `icon`: Int32
     - `name`: String
     - `concentration`: Int16
 
@@ -40,12 +41,18 @@
 
 ## `PUT` /:id
 
-**Request** ( N/A )
+**Request** ( JSON )
 
 - `->`: Object
     - `id`: Int64
-    - `iconCode`: Int32 ( optional )
+    - `icon`: Int32 ( optional )
     - `name`: String ( optional )
     - `concentration`: Int16 ( optional )
+
+**Response** ( N/A )
+
+## `DELETE` /:id
+
+**Request** ( N/A )
 
 **Response** ( N/A )

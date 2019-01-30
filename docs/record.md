@@ -13,7 +13,6 @@
     - `drinkId`: Int64
     - `time`: TimeStamp
     - `value`: Int32
-    - `concentrationValue`: Int16
 
 ## `POST` /
 
@@ -21,19 +20,19 @@
 
 - `->`: Object
     - `drinkId`: Int64
-    - `value`: Int32
+    - `value`: Int32,
+    - `time`: Timestamp
 
 **Response** ( JSON )
 
 - `->`: Object
     - `id`: Int64
 
-## `PUT` /:id
+## `POST` /Multi
 
 **Request** ( JSON )
 
-- `->`: Array
-    - `id`: Int64
-    - `value`: Int32
-
-**Response** ( N/A )
+- `[ ]`: Array
+    - `drinkId`: Int64
+    - `value`: Int32,
+    - `time`: Timestamp
